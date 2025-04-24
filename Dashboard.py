@@ -4,8 +4,8 @@ import plotly.express as px
 from utils import get_inventory_data
 
 st.set_page_config(page_title="Dashboard", layout="wide")
-st.title("📊 LIMS Dashboard")
-
+st.title("Eli Laboratory Inventory Management System (LIMS) Dashboard")
+st.logo("https://media.licdn.com/dms/image/v2/D4E0BAQG0f6EiheGzCA/company-logo_200_200/company-logo_200_200/0/1722266280342/elihealth_logo?e=2147483647&v=beta&t=w5dDjO-IQ0nHhJk7SkPz2QVrKNucooksvjvkxRjpz7Y")
 df = get_inventory_data()
 
 # Ensure Threshold column exists and is numeric
